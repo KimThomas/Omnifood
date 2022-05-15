@@ -44,19 +44,36 @@ body {
   color: #555;
 }
 
-/*
-  some tools
-*/
+/*****************/
+/* components */
+/*****************/
 .margin-right-sm {
   margin-right: 1.6rem !important;
 }
 
-/*
-hero section style
-*/
+/*****************/
+/* header style */
+/*****************/
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fdf2e9;
+  /* because need header to sticky later */
+  height: 9.6rem;
+  padding: 0 4.8rem;
+}
+
+.logo {
+  height: 2.2rem;
+}
+
+/*****************/
+/* hero section style */
+/*****************/
 .hero-section {
   background-color: #fdf2e9;
-  padding: 9.6rem 0;
+  padding: 4.8rem 0;
 }
 
 .hero {
@@ -66,6 +83,7 @@ hero section style
   grid-template-columns: 1fr 1fr;
   align-items: center;
   gap: 9.6rem;
+  padding: 0 4.8rem;
 }
 
 .hero-title {
