@@ -56,6 +56,25 @@ body {
   margin-right: 1.6rem !important;
 }
 
+.container {
+  max-width: 120rem;
+  margin: 0 auto;
+  padding: 0 3.2rem;
+}
+
+.grid {
+  display: grid;
+  gap: 9.6rem;
+}
+
+.grid-2-columns {
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.grid-3-columns {
+  grid-template-columns: repeat(3, 1fr);
+}
+
 /*****************/
 /* header style */
 /*****************/
@@ -201,4 +220,33 @@ body {
 
 .hero-img {
   width: 100%;
+}
+
+/*****************/
+/* how it works section */
+/*****************/
+.section-how {
+  padding: 9.6rem 0;
+}
+
+.how-subheading {
+  display: block;
+  font-size: 1.6rem;
+  font-weight: 500;
+  color: #cf711f;
+  margin-bottom: 1.6rem;
+  text-transform: uppercase;
+  letter-spacing: 0.75px;
+}
+
+.how-title {
+  color: #333;
+  font-weight: 700;
+  font-size: 4.4rem;
+  line-height: 1.2;
+  margin-bottom: 9.6rem;
+}
+
+.step-img {
+  width: 50%;
 }
