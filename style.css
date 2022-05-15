@@ -38,7 +38,7 @@ html {
 }
 
 body {
-  font-family: sans-serif;
+  font-family: "Rubik", sans-serif;
   line-height: 1;
   font-weight: 400;
   color: #555;
@@ -112,6 +112,39 @@ hero section style
   color: #555;
   /* 不使用border的情况下 给元素添加边框 */
   box-shadow: inset 0 0 0 3px #fff;
+}
+
+.delivered-meals {
+  display: flex;
+  margin-top: 8rem;
+  align-items: center;
+  gap: 1.6rem;
+}
+
+.delivered-imgs {
+  display: flex;
+}
+
+.delivered-text {
+  font-size: 1.8rem;
+  font-weight: 600;
+}
+
+.delivered-imgs img {
+  height: 4.8rem;
+  width: 4.8rem;
+  margin-right: -1.6rem;
+  border-radius: 50%;
+  border: 3px solid #fdf2e9;
+}
+
+.delivered-imgs img:last-child {
+  margin-right: 0;
+}
+
+.delivered-number {
+  color: #e67e22;
+  font-weight: 700;
 }
 
 .hero-img {
