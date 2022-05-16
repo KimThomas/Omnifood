@@ -260,3 +260,50 @@ body {
 .step-img {
   width: 35%;
 }
+
+/*****************/
+/* meals section */
+/*****************/
+.meals-section {
+  padding: 9.6rem 0;
+}
+
+.meals-subheading {
+  display: block;
+  font-size: 1.6rem;
+  font-weight: 500;
+  color: #cf711f;
+  margin-bottom: 1.6rem;
+  text-transform: uppercase;
+  letter-spacing: 0.75px;
+}
+
+.meals-title {
+  color: #333;
+  font-weight: 700;
+  font-size: 4.4rem;
+  line-height: 1.2;
+  margin-bottom: 9.6rem;
+}
+
+.meal-img {
+  width: 100%;
+}
+
+.meal-title {
+  font-size: 2rem;
+  font-weight: 600;
+  color: #333;
+  margin-bottom: 3.2rem;
+}
+
+.meal-attributes {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 2.4rem;
+}
+
+.meal-attribute {
+  font-size: 1.6rem;
+}
