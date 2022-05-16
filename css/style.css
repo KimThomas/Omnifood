@@ -52,7 +52,35 @@ body {
 }
 
 /*****************/
-/* hero section style */
+/* featured section */
+/*****************/
+.section-featured {
+  padding: 4.8rem 0;
+}
+
+.heading-featured-in {
+  font-size: 1.6rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  text-align: center;
+  letter-spacing: 1px;
+  margin-bottom: 2.4rem;
+  color: #999;
+}
+
+.featured-logos {
+  display: flex;
+  justify-content: space-around;
+}
+
+.featured-logos img {
+  height: 3.2rem;
+  filter: brightness(0%);
+  opacity: 50%;
+}
+
+/*****************/
+/* hero section */
 /*****************/
 .hero-section {
   background-color: #fdf2e9;
