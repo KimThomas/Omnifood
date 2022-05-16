@@ -72,3 +72,7 @@ html {
 .grid-v-center {
   align-items: center;
 }
+
+strong {
+  font-weight: 500;
+}
