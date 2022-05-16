@@ -290,6 +290,12 @@ body {
   box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.1);
   border-radius: 10px;
   overflow: hidden;
+  transition: all 0.5s;
+}
+
+.meal:hover {
+  box-shadow: 0 3.2rem 6.2rem rgba(0, 0, 0, 0.3);
+  transform: translateY(-1.2rem);
 }
 
 .meal-content {
@@ -353,4 +359,50 @@ body {
   width: 2.4rem;
   height: 2.4rem;
   color: #e67e22;
+}
+
+.diets-title {
+  font-weight: 700;
+  color: #555;
+  font-size: 3rem;
+  margin-bottom: 3.2rem;
+}
+
+.diet-list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 1.6rem;
+}
+
+.diet-list-item {
+  font-size: 1.8rem;
+  display: flex;
+  align-items: center;
+  gap: 1.6rem;
+}
+
+.diet-item-icon {
+  width: 3rem;
+  height: 3rem;
+  color: #e67e22;
+}
+
+.see-recipes {
+  text-align: center;
+  font-size: 1.8rem;
+}
+
+.recipes-link:link, .recipes-link:visited {
+  display: inline-block;
+  text-decoration: none;
+  color: #e67e22;
+  border-bottom: 1px solid currentColor;
+  padding-bottom: 2px;
+  transition: all 0.5s;
+}
+
+.recipes-link:hover, .recipes-link:active {
+  color: #cf711f;
+  border-bottom: 1px solid transparent;
 }
