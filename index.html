@@ -497,13 +497,9 @@
 <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
 <script !src="">
   const menuBtn = document.querySelector(".nav-menu-btn");
+  const header = document.querySelector("header");
   menuBtn.addEventListener('click', () => {
-    const header = document.querySelector("header");
-    if (header.classList.contains('open-nav')) {
-      header.classList.remove('open-nav')
-    } else {
-      header.classList.add('open-nav')
-    }
+    header.classList.toggle('open-nav')
   })
 </script>
 </body>
