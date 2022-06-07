@@ -3,6 +3,27 @@ body {
   line-height: 1;
   font-weight: 400;
   color: #555;
+  overflow-x: hidden;
+}
+
+/*****************/
+/* mobile menu */
+/*****************/
+.nav-menu-btn {
+  display: none;
+  cursor: pointer;
+  background: none;
+  border: none;
+}
+
+.nav-menu-icon {
+  width: 4.8rem;
+  height: 4.8rem;
+  color: #333;
+}
+
+.nav-menu-icon[name="close-outline"] {
+  display: none;
 }
 
 /*****************/
@@ -15,7 +36,8 @@ body {
   background-color: #fdf2e9;
   /* because need header to sticky later */
   height: 9.6rem;
-  padding: 0 4.8rem;
+  padding: 0 2.4rem;
+  position: relative;
 }
 
 .logo {

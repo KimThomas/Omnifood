@@ -107,4 +107,52 @@
   .cta-form {
     grid-template-columns: 1fr;
   }
+  
+  .nav-menu-btn {
+    display: block;
+  }
+  
+  .main-nav {
+    background-color: rgba(255, 255, 255, 0.95);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.5s ease-out;
+    transform: translateX(100%);
+    
+    /* hidden element  */
+    opacity: 0;
+    pointer-events: none;
+    visibility: hidden;
+  }
+  
+  .open-nav .main-nav {
+    opacity: 1;
+    pointer-events: inherit;
+    visibility: inherit;
+    transform: translateX(0);
+  }
+  
+  .open-nav .nav-menu-icon[name="close-outline"] {
+    display: block;
+  }
+  
+  .open-nav .nav-menu-icon[name="menu-outline"] {
+    display: none;
+  }
+  
+  .main-nav-list {
+    text-align: center;
+    gap: 5.4rem;
+    flex-direction: column;
+  }
+  
+  .main-nav-link:link, .main-nav-link:visited {
+    font-size: 3rem;
+  }
 }
